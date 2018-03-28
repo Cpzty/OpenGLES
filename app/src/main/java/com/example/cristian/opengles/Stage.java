@@ -26,6 +26,12 @@ public class Stage extends GLSurfaceView {
 
     private FloatBuffer vertexBuffer;
 
+    private Texture tex;
+
+    private String img;
+
+    private float xPos,yPos,r;
+
     @RequiresApi(api = Build.VERSION_CODES.CUPCAKE)
     public Stage(Context context, AttributeSet attrs) {
         super(context, attrs);
